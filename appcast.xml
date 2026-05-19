@@ -20,6 +20,20 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.2</title>
+      <pubDate>Tue, 19 May 2026 16:38:48 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        Removes the redundant in-app welcome window. The drag-to-install
+        moment now lives only in the DMG itself.
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.2/Pidgy-d9ac623.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="7kUK8KTGFr9oIV33FxpF8NmQ2CmPCEBCT9ihzeEPQxyTgdHZbudHOjB/rry7i3nd7I3CaLqP6jijIvGGdU7VBw==" length="82163514" />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <pubDate>Tue, 19 May 2026 12:23:45 +0000</pubDate>
       <sparkle:version>1</sparkle:version>
