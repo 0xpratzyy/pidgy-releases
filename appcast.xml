@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Pidgy update feed for Sparkle.
+
+  Each installed copy of Pidgy polls this file every 6 hours (the
+  cadence is set in Pidgy's Info.plist via SUScheduledCheckInterval).
+  When a new <item> is added whose sparkle:shortVersionString is
+  higher than the running app's CFBundleShortVersionString, Sparkle
+  downloads the DMG referenced by <enclosure url=...>, verifies its
+  EdDSA signature against the public key baked into the installed
+  app, and atomically replaces itself.
+
+  Append new releases at the TOP of <channel>. Newest first.
+-->
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Pidgy</title>
+    <link>https://github.com/0xpratzyy/pidgy-releases</link>
+    <description>Pidgy macOS update feed</description>
+    <language>en</language>
+  </channel>
+</rss>
