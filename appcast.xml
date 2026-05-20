@@ -20,6 +20,20 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.5</title>
+      <pubDate>Wed, 20 May 2026 15:02:02 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        Test release to verify the manual "Check for Updates…" flow.
+        No functional changes from 1.0.4.
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.5/Pidgy-71deb7f.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="dJxrHEetPOuZJseolEQGsp594tRhhBWbq3/WiW3t3pDt0IcYw8hxZbMwyNOn2POovbHN3EJenyve+4lvI6qXDA==" length="83799751" />
+    </item>
+    <item>
       <title>Version 1.0.4</title>
       <pubDate>Wed, 20 May 2026 12:20:00 +0000</pubDate>
       <sparkle:version>2</sparkle:version>
