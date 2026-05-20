@@ -20,6 +20,23 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.3</title>
+      <pubDate>Wed, 20 May 2026 12:00:14 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        Reply queue overhaul — sections + search + a Newest/Oldest sort
+        toggle, AI suggested replies, and catch-up summaries for quiet
+        groups. Archive chats to remove them from the queue and tasks.
+        Collapsible sidebar (⌘S) with a title-bar toggle, ⌘K launcher,
+        friendlier 2FA / auth error messages, and assorted UI polish.
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.3/Pidgy-d444631.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="8qINTyo5x+iwjGDlv2+qyYg2rncQgGSt6rpls9zht4ni5HigV1QBIczjvfzDcdm4QUy/G3UFnrnrA/pd/gO+BA==" length="83805103" />
+    </item>
+    <item>
       <title>Version 1.0.2</title>
       <pubDate>Tue, 19 May 2026 16:38:48 +0000</pubDate>
       <sparkle:version>1</sparkle:version>
