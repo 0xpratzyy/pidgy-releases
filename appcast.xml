@@ -20,6 +20,24 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.4</title>
+      <pubDate>Wed, 20 May 2026 12:20:00 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        Fixes auto-update itself: CFBundleVersion was stuck at 1 across
+        every prior release, so Sparkle never saw a newer build to
+        offer. Also restores the "Check for Updates…" menu item.
+        Carries the full 1.0.3 feature set — reply queue overhaul,
+        chat archive, collapsible sidebar, ⌘K launcher, friendlier
+        auth errors.
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.4/Pidgy-9499c29.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="aezNV58xtnijKztEW/nCG+OAILEKy2Dxn8VDxxS0RCoPwu2sT3yUQe2nBh1MotrQrCMWd+2gccnh+GnCD+NtDg==" length="83800993" />
+    </item>
+    <item>
       <title>Version 1.0.3</title>
       <pubDate>Wed, 20 May 2026 12:00:14 +0000</pubDate>
       <sparkle:version>1</sparkle:version>
