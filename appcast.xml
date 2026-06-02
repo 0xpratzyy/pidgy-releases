@@ -4,6 +4,19 @@
 
   Each installed copy of Pidgy polls this file every 6 hours (the
   cadence is set in Pidgy's Info.plist via SUScheduledCheckInterval).
+    <item>
+      <title>Version 1.0.8</title>
+      <pubDate>Tue, 02 Jun 2026 12:03:36 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        Faster, lighter Reply Queue — per-message triage is quicker and uses fewer resources.
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.8/Pidgy-3225d3f.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="A7gADwfo9rfj3iYP6kclyqixILrqTnXiWC+htwjKZrKlgNSXiY0I4DvOqwvhuB5a+bRHw17V7z6VOH53YberCw==" length="83763437" />
+    </item>
   When a new <item> is added whose sparkle:shortVersionString is
   higher than the running app's CFBundleShortVersionString, Sparkle
   downloads the DMG referenced by <enclosure url=...>, verifies its
