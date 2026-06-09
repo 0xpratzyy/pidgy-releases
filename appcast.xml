@@ -33,6 +33,23 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.9</title>
+      <pubDate>Tue, 09 Jun 2026 21:53:02 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <b>Security &amp; reliability.</b>
+        <ul>
+          <li>Prompt-injection hardening — Pidgy's AI now treats message content as untrusted data, so crafted messages can't manipulate your tasks or reply queue.</li>
+          <li>Non-logging AI proxy — AI requests route through a managed proxy, so no API key ships inside the app; message content is never stored or logged.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.9/Pidgy-585679b.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="UlWNBNY1DyExWLCTIXir08D8DKcGS4gL11FuNmo8ThEqdUWi1Rms5M7SuwwRj+74sNBs3B3bftpJSTEPKnfQDw==" length="83956009" />
+    </item>
+    <item>
       <title>Version 1.0.7</title>
       <pubDate>Wed, 20 May 2026 15:26:14 +0000</pubDate>
       <sparkle:version>5</sparkle:version>
