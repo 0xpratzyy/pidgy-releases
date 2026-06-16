@@ -20,6 +20,23 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.12</title>
+      <pubDate>Tue, 16 Jun 2026 07:31:19 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <b>Fixes.</b>
+        <ul>
+          <li>Log out now works — it returns you to the Telegram login screen instead of leaving a stuck, disconnected dashboard.</li>
+          <li>The app fully quits within a couple of seconds — no more hanging on Quit.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.12/Pidgy-eef104d.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="T2KIk/5c3wAS3Y5VNB9tXPgUTLbqho88pdGAm3VaAO+bhXmFG6qGYhcvaqHozbOgjE/trmKrMK6+xqCd23lQAA==" length="84646019" />
+    </item>
+    <item>
       <title>Version 1.0.11</title>
       <pubDate>Tue, 16 Jun 2026 05:53:15 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
