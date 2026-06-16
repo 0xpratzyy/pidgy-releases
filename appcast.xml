@@ -20,6 +20,22 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.11</title>
+      <pubDate>Tue, 16 Jun 2026 05:53:15 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <b>Fixes.</b>
+        <ul>
+          <li>The multilingual search model now downloads into Pidgy's own data folder instead of your Documents — no more "access files in your Documents folder" prompt on first launch.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.11/Pidgy-13a4707.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="H9P1n3qxJ4GcjbXjrUxPVmo7gT257Gwpajvi8Cx1XTkjqzmQmai0tHvqN4YV9jQ2N8te8IFI4wD02XXvcx6CBg==" length="84639086" />
+    </item>
+    <item>
       <title>Version 1.0.10</title>
       <pubDate>Tue, 16 Jun 2026 05:28:38 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
