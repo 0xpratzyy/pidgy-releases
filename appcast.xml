@@ -20,6 +20,33 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.10</title>
+      <pubDate>Tue, 16 Jun 2026 05:28:38 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <b>Search &amp; language.</b>
+        <ul>
+          <li>Multilingual semantic search — find chats across languages; a query in one language now surfaces messages written in another.</li>
+        </ul>
+        <b>Plans &amp; privacy.</b>
+        <ul>
+          <li>14-day free trial and a new onboarding flow — choose a plan when you start.</li>
+          <li>Bring-your-own-key (most private) — use your own OpenAI/Anthropic key; prompts go straight to the provider, never through Pidgy's servers.</li>
+          <li>Privacy hardening — chat data never leaves your Mac except through the AI endpoints you choose.</li>
+        </ul>
+        <b>Performance &amp; polish.</b>
+        <ul>
+          <li>Fixed an idle-CPU indexing loop that could peg the processor and spin up the fans.</li>
+          <li>More reliable "Open in chat" deep links, plus a Telegram Web option.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.10/Pidgy-f6f6ea3.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="HUOGaa/ikaMkmrM/qwrQJE9D0vz8AoGLnArCizLVGxnAHqeAK+CMB/Br48z9mNTFL+6Q5H75sUXq15baSVALDg==" length="84636681" />
+    </item>
+    <item>
       <title>Version 1.0.9</title>
       <pubDate>Tue, 09 Jun 2026 21:53:02 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
