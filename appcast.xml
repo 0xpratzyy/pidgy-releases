@@ -20,6 +20,29 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.14</title>
+      <pubDate>Wed, 24 Jun 2026 12:02:38 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <b>Fixes.</b>
+        <ul>
+          <li>Groups and chats you've left no longer reappear in the reply queue.</li>
+          <li>Deleted or edited messages no longer linger in search, and “Clear all local data” now fully wipes the on-device search index.</li>
+          <li>Background indexing no longer gets stuck on link-only messages (fixes a CPU/battery drain).</li>
+        </ul>
+        <b>New.</b>
+        <ul>
+          <li>Reply drafts now adapt to your own writing style.</li>
+          <li>Managed AI now runs on Gemini — faster and lower cost.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.14/Pidgy-922e6af.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="4rFl2QpP/i6jG8SI+Obm5LVtdzHDQlrdeSSsH32qlg7+U3o3syGPx6n3WjH1CXAOis9Amsz/E2pxj1ZRZcctBw==" length="84738540" />
+    </item>
+    <item>
       <title>Version 1.0.13</title>
       <pubDate>Tue, 16 Jun 2026 19:08:40 +0000</pubDate>
       <sparkle:version>11</sparkle:version>
