@@ -20,6 +20,26 @@
     <description>Pidgy macOS update feed</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.15</title>
+      <pubDate>Thu, 25 Jun 2026 10:12:37 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <b>Fixes.</b>
+        <ul>
+          <li>Signing back in after “Reset all data” now works — the app relaunches into a fresh session instead of erroring on the phone-number step.</li>
+        </ul>
+        <b>New.</b>
+        <ul>
+          <li>Bring your own AI key from more providers: OpenAI, Anthropic, Gemini, xAI, Groq, OpenRouter, or any OpenAI-compatible endpoint.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.15/Pidgy-fc74924.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="nLaFCjC2gg06mQjpziefogSLWGNZxF+S55j67O6XTwIevssANI7moLJt6wguxX32Vjjwy/+bSRvJDdZkJGuaAw==" length="84707373" />
+    </item>
+    <item>
       <title>Version 1.0.14</title>
       <pubDate>Wed, 24 Jun 2026 12:02:38 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
