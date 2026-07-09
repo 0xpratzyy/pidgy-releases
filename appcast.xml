@@ -4,21 +4,7 @@
 
   Each installed copy of Pidgy polls this file every 6 hours (the
   cadence is set in Pidgy's Info.plist via SUScheduledCheckInterval).
-  When a new <item>
-      <title>Version 1.0.16</title>
-      <pubDate>Thu, 09 Jul 2026 14:59:51 +0000</pubDate>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[
-        Memory engine (beta): tasks and the reply queue from Pidgy's new fact memory, with exact-message evidence and follow-up bumps. Quit no longer hangs; two quit/re-login crashes fixed. See the release page for full notes.
-      ]]></description>
-      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.16/Pidgy-d10b7f7.dmg"
-                 type="application/octet-stream"
-                 sparkle:edSignature="jvnWWJNYwpTCvMpZkG121kW/yVcNdXpxeqTPriCFL/odtXp9JNIs7VnDdolBRyvKI4wGg9cDbjcdYjF2X4HVDw==" length="85286290" />
-    </item>
-
-    <item> is added whose sparkle:shortVersionString is
+  When a new <item> is added whose sparkle:shortVersionString is
   higher than the running app's CFBundleShortVersionString, Sparkle
   downloads the DMG referenced by <enclosure url=...>, verifies its
   EdDSA signature against the public key baked into the installed
@@ -33,6 +19,20 @@
     <link>https://github.com/0xpratzyy/pidgy-releases</link>
     <description>Pidgy macOS update feed</description>
     <language>en</language>
+    <item>
+      <title>Version 1.0.16</title>
+      <pubDate>Thu, 09 Jul 2026 14:59:51 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        Memory engine (beta): tasks and the reply queue from Pidgy's new fact memory, with exact-message evidence and follow-up bumps. Quit no longer hangs; two quit and re-login crashes fixed. See the release page for full notes.
+      ]]></description>
+      <enclosure url="https://github.com/0xpratzyy/pidgy-releases/releases/download/v1.0.16/Pidgy-d10b7f7.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="jvnWWJNYwpTCvMpZkG121kW/yVcNdXpxeqTPriCFL/odtXp9JNIs7VnDdolBRyvKI4wGg9cDbjcdYjF2X4HVDw==" length="85286290" />
+    </item>
+
     <item>
       <title>Version 1.0.15</title>
       <pubDate>Thu, 25 Jun 2026 10:12:37 +0000</pubDate>
